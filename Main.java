@@ -7,12 +7,10 @@ public class Main {
         Main main = new Main();
         Scanner myScanner = new Scanner(System.in);
         System.out.println("X= ");
-        String x = myScanner.nextLine();
+        int x = myScanner.nextInt();
         System.out.println("Y= ");
-        String y = myScanner.nextLine();
-        Integer xInteger = Integer.valueOf(x);
-        Integer yInteger = Integer.valueOf(y);
-        int resultado = main.suma(xInteger, yInteger);
+        int y = myScanner.nextInt();
+        int resultado = main.suma(x, y);
         System.err.println(resultado);
         
     }
