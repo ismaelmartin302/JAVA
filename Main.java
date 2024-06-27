@@ -1,6 +1,7 @@
 
 // import ejercicios.seriesNumericasSencillas;
-import ejercicios.seriesNumericasAvanzadas;
+// import ejercicios.seriesNumericasAvanzadas;
+import ejercicios.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +12,7 @@ public class Main {
         // seriesNumericasSencillas.serieNumericaWhile();
         // System.out.println("\nSerie Numerica utilizando Do While");
         // seriesNumericasSencillas.serieNumericaDoWhile();
-        seriesNumericasAvanzadas.serieFibonacci();
+        // seriesNumericasAvanzadas.serieFibonacci();
+        scannerStrings.extraerParteDeUnaCadena();
     }
 }
