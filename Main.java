@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Main main = new Main();
+        Integer x = 0, y = 0, resultado = null;
         Scanner myScanner = new Scanner(System.in);
         System.out.println("X= ");
-        int x = myScanner.nextInt();
+        x = myScanner.nextInt();
         System.out.println("Y= ");
-        int y = myScanner.nextInt();
+        y = myScanner.nextInt();
         myScanner.nextLine();
         System.out.println("Operación? ");
-        String operacion = myScanner.nextLine();
-        Integer resultado = null;
+        String operacion = myScanner.nextLine().toLowerCase();
         switch (operacion) {
             case "suma":
                 resultado = main.suma(x, y);
