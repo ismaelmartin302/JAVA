@@ -1,6 +1,6 @@
 package ejercicios;
 
-public class ejercicios {
+public class seriesNumericasSencillas {
     public static void serieNumericaFor () {
         for (int i = 1; i <= 10; i++) {
             System.out.println(i);
