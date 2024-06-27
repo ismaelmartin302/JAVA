@@ -10,7 +10,29 @@ public class Main {
         int x = myScanner.nextInt();
         System.out.println("Y= ");
         int y = myScanner.nextInt();
-        int resultado = main.suma(x, y);
+        myScanner.nextLine();
+        System.out.println("Operación? ");
+        String operacion = myScanner.nextLine();
+        Integer resultado = null;
+        switch (operacion) {
+            case "suma":
+                resultado = main.suma(x, y);
+                break;
+            case "resta":
+                resultado = main.resta(x, y);
+                break;
+            case "multiplicacion":
+                resultado = main.multiplicacion(x, y);
+                break;
+            case "division":
+                resultado = main.division(x, y);
+                break;
+            default:
+                System.out.println("Operacion no valida");
+                break;
+        }
+        myScanner.close();
+
         System.err.println(resultado);
         
     }
