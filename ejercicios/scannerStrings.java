@@ -39,4 +39,12 @@ public class scannerStrings {
         }
         in.close();
     }
+
+    public static String invertirString (String string) {
+        String stringInvertido = "";
+        for (int i = 1; i <= string.length(); i++) {
+            stringInvertido += string.charAt(string.length() - i);
+        }
+        return stringInvertido;
+    }
 }

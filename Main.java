@@ -13,6 +13,7 @@ public class Main {
         // System.out.println("\nSerie Numerica utilizando Do While");
         // seriesNumericasSencillas.serieNumericaDoWhile();
         // seriesNumericasAvanzadas.serieFibonacci();
-        scannerStrings.extraerParteDeUnaCadena();
+        // scannerStrings.extraerParteDeUnaCadena();
+        System.out.println(scannerStrings.invertirString("Hola mundo"));
     }
 }
